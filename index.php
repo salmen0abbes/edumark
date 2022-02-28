@@ -93,7 +93,7 @@ else{
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    <img src="img/logo.png" alt="">
+                                   
                                 </a>
                             </div>
                         </div>
@@ -497,7 +497,7 @@ else{
                             <p>
                                 200, D-block, Green lane USA <br>
                                 +10 367 467 8934 <br>
-                                edumark@contact.com
+                                karini@contact.com
                             </p>
                         </div>
                     </div>
