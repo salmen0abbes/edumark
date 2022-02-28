@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3308
+- Generation Time: May 03, 2020 at 02:26 PM
+- Server version: 8.0.18
+- PHP Version: 7.3.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="accounts" collation="utf8_general_mysql500_ci" charset="utf8">
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `nom` varchar(100) NOT NULL,
+                  `email` varchar(100) NOT NULL,
+                  `tlpnumber` int(8) NOT NULL,
+                  `pdw` varchar(50) NOT NULL,
+                  `anne` varchar(4) NOT NULL
+                ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'accounts'
+    -->
+    <database name="accounts">
+        <!-- Table users -->
+    </database>
+</pma_xml_export>
